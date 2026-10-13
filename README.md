@@ -22,3 +22,9 @@
 **Запуск автотестов и создание HTML-отчета о покрытии**
 
 >  `$ pytest --cov=praktikum --cov-report=html`
+
+
+pip install -r requirements.txt
+pytest --cov=praktikum --cov-report=html
+
+После запуска отчёт о покрытии будет в htmlcov/index.html
